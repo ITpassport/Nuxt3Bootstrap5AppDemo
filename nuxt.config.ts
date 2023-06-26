@@ -1,5 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+       
     app: {
         baseURL: '/Nuxt3Bootstrap5AppDemo/', // baseURL: '/<repository>/'
         head: {
