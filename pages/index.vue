@@ -1,5 +1,26 @@
 <template>
-  <div>
+  <div class ="mt-3">
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">円卓決算</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">各種設定</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
+    </div>
+  </div>
+</nav>
+
+ <!-- main page-->
     <div class="card-group">
   <div class="card">
     <div class="card-body">
@@ -17,7 +38,7 @@
     <div class="card-body">
       <h5 class="card-title">各種出力</h5>
       <ul class="list-inline">
-      <div class="col-4">
+      <div class="col-7">
       <li><NuxtLink to ="a">仕分帳</NuxtLink></li>
       <li><NuxtLink to ="a">出納表</NuxtLink></li>
       <li><NuxtLink to ="a">仕分検索</NuxtLink></li>
