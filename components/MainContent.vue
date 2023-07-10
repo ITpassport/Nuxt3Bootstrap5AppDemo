@@ -57,6 +57,7 @@
       <div class="col-4">
       <li><NuxtLink to ="a">仕分帳</NuxtLink></li>
       <li><NuxtLink to ="a">出納表</NuxtLink></li>
+      <img src="~/assets/img/setting.jpg">
     </div>
   </ul>
     </div>
